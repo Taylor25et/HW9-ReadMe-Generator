@@ -19,8 +19,29 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please select a license from the following:",
-    choices: ["a", "b", "c", "d", "no license"],
+    choices: ["Mozilla_Public_2.0", "GNU_AGPLv3", "Apache_2.0", "MIT", "no license"],
   },
+  {
+    type: "input",
+    name: "installation",
+    message: "Please explain how to install your project?",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Please explain how to use your project?",
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "Who contributed to this project?",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Please include information on how to run tests for this project.",
+  },
+
 ];
 
 // TODO: Create a function to write README file
