@@ -29,6 +29,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for new projects.
 
 ## Description
 ${data.description}
@@ -55,8 +58,8 @@ ${data.contributing}
 ${data.tests}
 ## Questions
 Please feel free to reach out with any questions or suggestions either on my GitHub or email.
-* GitHub: https://github.com/${github}
-* E-Mail: ${email}
+* GitHub: https://github.com/${data.github}
+* E-Mail: ${data.email}
 
 
 `;
