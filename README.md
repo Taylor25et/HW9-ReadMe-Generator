@@ -1,10 +1,9 @@
 # HW 9 ReadMe Generator 
 ![gitHubLicense](https://img.shields.io/badge/License-Mozilla_Public_2.0-green.svg)
 
-AS A developer I WANT a README generator SO THAT I can quickly create a professional README for new projects.
 
 ## Description
-This is command-line application that dynamically generates a professional README.md file from a user's input. <br> <br>AS A developer <br>I WANT a README generator <br>SO THAT I can quickly create a professional README for new projects.
+This is command-line application that dynamically generates a professional README.md file from a user's input. <br> <br>AS A developer <br>I WANT a ReadMe generator <br>SO THAT I can quickly create a professional ReadMe for new projects.
 
 ## Table of Contents
 
@@ -16,7 +15,7 @@ This is command-line application that dynamically generates a professional READM
 - [Questions](#questions)
 
 ## Installation 
-To get started clone the code from this repo into your desired project. Inside of the terminal of your code editor paste ‘npm install’ and press Enter. After installed you can use command ‘node index.js’ to start the prompts. <br> **Please note that the file title index.js is used in this application to avoid conflicting file names.**
+To get started clone the code from this repo into your desired project. Inside of the terminal of your code editor paste ‘npm install’ and press Enter. After installed you can use command ‘node index.js’ to start the prompts. <br> <br>**Please note that the file title index.js is used in this application to avoid conflicting file names.**
 ## Usage
 The application will be invoked by using the following command: bash +node index.js. Please see gif below for a full walk through or for a larger view visit my [YouTube Video]( https://youtu.be/R9ZsEAWB0ns). <br> ![](./media/HW9video.gif)
 ## License

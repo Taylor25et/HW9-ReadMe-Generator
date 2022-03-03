@@ -19,7 +19,13 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please select a license from the following:",
-    choices: ["Mozilla_Public_2.0", "GNU_AGPLv3", "Apache_2.0", "MIT", "no license"],
+    choices: [
+      "Mozilla_Public_2.0",
+      "GNU_AGPLv3",
+      "Apache_2.0",
+      "MIT",
+      "no license",
+    ],
   },
   {
     type: "input",
@@ -51,7 +57,6 @@ const questions = [
     name: "email",
     message: "Enter your email address:",
   },
-
 ];
 
 // TODO: Create a function to write README file

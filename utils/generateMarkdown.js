@@ -13,7 +13,7 @@ function renderLicenseLink(license) {
   if (license === "no license") {
     return "";
   }
-  return`- [License](#license)`
+  return `- [License](#license)`;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
   if (license === "no license") {
     return "";
   }
-  return `This project is covered under the ${license} license. `
+  return `This project is covered under the ${license} license. `;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -30,7 +30,6 @@ function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
 
-AS A developer I WANT a README generator SO THAT I can quickly create a professional README for new projects.
 
 ## Description
 ${data.description}
