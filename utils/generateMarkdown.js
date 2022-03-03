@@ -49,11 +49,14 @@ ${data.usage}
 ## Licensing
 ${renderLicenseSection(data.license)}
 ## Contributing
+Please see the links
 ${data.contributing}
 ## Tests
 ${data.tests}
 ## Questions
-${data.questions}
+Please feel free to reach out with any questions or suggestions either on my GitHub or email.
+* GitHub: https://github.com/${github}
+* E-Mail: ${email}
 
 
 `;

@@ -24,12 +24,12 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Please explain how to install your project?",
+    message: "Please explain how to install your project:",
   },
   {
     type: "input",
     name: "usage",
-    message: "Please explain how to use your project?",
+    message: "Please explain how to use your project:",
   },
   {
     type: "input",
@@ -39,7 +39,17 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "Please include information on how to run tests for this project.",
+    message: "Please include information on how to run tests for this project:",
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "Enter your GitHub username:",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Enter your email address:",
   },
 
 ];
