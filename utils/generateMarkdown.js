@@ -13,7 +13,7 @@ function renderLicenseLink(license) {
   if (license === "no license") {
     return "";
   }
-  return`* [License](#license)`
+  return`- [License](#license)`
 }
 
 // TODO: Create a function that returns the license section of README
@@ -29,25 +29,25 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for new projects.
+
+AS A developer I WANT a README generator SO THAT I can quickly create a professional README for new projects.
 
 ## Description
 ${data.description}
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
+- [Installation](#installation)
+- [Usage](#usage)
 ${renderLicenseLink(data.license)}
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation 
 ${data.installation}
 ## Usage
+![](https://drive.google.com/file/d/1bArr24Vryy76EQXH-ydo-hgXHC7N_nSb/view)
 ${data.usage}
 ## Licensing
 ${renderLicenseSection(data.license)}
