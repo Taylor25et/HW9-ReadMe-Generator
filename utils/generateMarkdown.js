@@ -47,17 +47,15 @@ ${renderLicenseLink(data.license)}
 ## Installation 
 ${data.installation}
 ## Usage
-![](https://drive.google.com/file/d/1bArr24Vryy76EQXH-ydo-hgXHC7N_nSb/view)
 ${data.usage}
-## Licensing
+## License
 ${renderLicenseSection(data.license)}
 ## Contributing
-Please see the links
 ${data.contributing}
 ## Tests
 ${data.tests}
 ## Questions
-Please feel free to reach out with any questions or suggestions either on my GitHub or email.
+Please feel free to contact me with any questions or suggestions either on my GitHub account or via email.
 * GitHub: https://github.com/${data.github}
 * E-Mail: ${data.email}
 
