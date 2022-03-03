@@ -17,7 +17,7 @@ This is a command-line application that dynamically generates a professional REA
 ## Installation 
 To get started clone the code from this repo into your desired project. Inside of the terminal of your code editor paste ‘npm install’ and press Enter. After you have the application installed you can use command ‘node index.js’ to start the prompts in your terminal. <br> <br>**Please note that the file title ‘index.js’ is used in this application to avoid conflicting file names.**
 ## Usage
-The application will be invoked by using the following command: bash +node index.js. Please see the gif below for a full walk through or, for a larger viewing capabilities please visit my [YouTube Tutorial Video]( https://youtu.be/R9ZsEAWB0ns). <br> ![](./media/HW9video.gif)
+The application will be invoked by using the following command: bash +node index.js. Please see the gif below for a full walk through or, for larger viewing capabilities please visit my [YouTube Tutorial Video]( https://youtu.be/R9ZsEAWB0ns). <br> ![](./media/HW9video.gif)
 ## License
 This project is covered under the Mozilla_Public_2.0 license. 
 ![gitHubLicense](https://img.shields.io/badge/License-Mozilla_Public_2.0-green.svg)
