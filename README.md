@@ -19,7 +19,7 @@ To get started clone the code from this repo into your desired project. Inside o
 ## Usage
 The application will be invoked by using the following command: bash +node index.js. Please see the gif below for a full walk through or, for larger viewing capabilities please visit my [YouTube Tutorial Video]( https://youtu.be/R9ZsEAWB0ns). <br> ![](./media/HW9video.gif)
 ## License
-This project is covered under the Mozilla_Public_2.0 license. 
+This project is covered under the Mozilla_Public_2.0 license. <br>
 ![gitHubLicense](https://img.shields.io/badge/License-Mozilla_Public_2.0-green.svg)
 ## Contributing
 This project would not have been possible without the contributions credited in the links below. <br>[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) <br>  [Inquirer Package](https://www.npmjs.com/package/inquirer)
