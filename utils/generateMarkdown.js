@@ -49,6 +49,7 @@ ${data.installation}
 ${data.usage}
 ## License
 ${renderLicenseSection(data.license)}
+${renderLicenseBadge(data.license)}
 ## Contributing
 ${data.contributing}
 ## Tests
